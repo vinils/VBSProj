@@ -1,16 +1,3 @@
-' Sub Import2(strFile)
-'     Dim objFile, strCode, objFSO
-'     Set objFSO = CreateObject("Scripting.FileSystemObject")
-'     Set objFile = objFSO.OpenTextFile(strFile)
-'     strCode = objFile.ReadAll
-'     objFile.Close
-'     ExecuteGlobal strCode
-'     Set objFile = Nothing
-'     Set objFSO = Nothing
-' End Sub
-
-' Import2 "StrFormat.vbs"
-
 Dim oFSO, oFile, strCode
 
 Const ForReading = 1
