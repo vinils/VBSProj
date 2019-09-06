@@ -1,4 +1,4 @@
-language: shell
+language: csharp
 os: windows
 
 addons:
