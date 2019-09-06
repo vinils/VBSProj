@@ -1,5 +1,11 @@
 language: shell
 os: windows
 
+addons:
+  sonarcloud:
+    organization: "vinils"
+    token:
+      secure: ff02da27b4834eeddb1b26fac1ee12fb1e0e76d2
 script:
   - "/c/Windows/System32/cscript.exe App.Test.vbs"
+  - sonar-scanner
