@@ -1,6 +1,4 @@
 language: csharp
-mono: none
-os: windows
 
 addons:
   sonarcloud:
