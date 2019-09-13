@@ -1,5 +1,7 @@
 Sub Import(strFile)
     strFile = strFile + ".vbs"
+    strFile = Replace(strFile, ".\", $GetAppPath())
+
     Dim objFile, strCode, objFSO
     Set objFSO = CreateObject("Scripting.FileSystemObject")
     Set objFile = objFSO.OpenTextFile(strFile)
