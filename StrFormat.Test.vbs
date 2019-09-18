@@ -12,8 +12,8 @@ Sub Import(strFile)
     Set objFSO = Nothing
 End Sub
 
-Import "Tests"
-Import "StrFormat"
+Import ".\Tests"
+Import ".\StrFormat"
 
 Function TC01_StringFormat_WhenHasParameters_ShouldBeReplaced()
     Dim stringFormat, input, result
