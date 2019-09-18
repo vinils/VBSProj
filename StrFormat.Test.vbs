@@ -1,6 +1,5 @@
 Sub Import(strFile)
     strFile = strFile + ".vbs"
-    strFile = Replace(strFile, ".\", $GetAppPath())
 
     Dim objFile, strCode, objFSO
     Set objFSO = CreateObject("Scripting.FileSystemObject")
@@ -12,8 +11,8 @@ Sub Import(strFile)
     Set objFSO = Nothing
 End Sub
 
-Import ".\Tests"
-Import ".\StrFormat"
+Import "Tests"
+Import "StrFormat"
 
 Function TC01_StringFormat_WhenHasParameters_ShouldBeReplaced()
     Dim stringFormat, input, result
