@@ -7,7 +7,8 @@ VBScripts project with Test Cases, CI and quality gate
 - StrFormart("My string {0} format", Array("Test"))
 - ArrayApend(Array1ByRef, ArrByVal)
 
-#Hot to use it
+# Hot to use it
+```vbscript
 Sub Import(strFile)
     strFile = strFile + ".vbs"
 
@@ -25,3 +26,4 @@ Import "StrFormat"
 Import "ArrayApend"
 
 MsgBox(StrFormart("My string {0} format", Array("Test")))
+```
