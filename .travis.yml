@@ -1,5 +1,4 @@
 language: shell
-os: windows
 
 script:
   - "/c/Windows/System32/cscript.exe App.Test.vbs"
