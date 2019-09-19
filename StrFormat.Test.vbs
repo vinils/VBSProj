@@ -28,5 +28,5 @@ Function TC01_StringFormat_WhenHasParameters_ShouldBeReplaced()
     Assert result = "My strFormat with number 1 content", "Strformat My strFormat with number {0} content not replaced properly"
 End Function
 
-WScript.Echo "Testing - TC01_StringFormatHasWithInput_WhenStrFormat_ShouldBeReplaced"
+WScript.Echo "Testing - TC01_StringFormatHasWithInput_WhenStrFormat_ShouldBeReplaced..."
 TC01_StringFormatHasWithInput_WhenStrFormat_ShouldBeReplaced()
