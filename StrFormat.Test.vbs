@@ -15,6 +15,8 @@ Import "Tests"
 Import "StrFormat"
 
 Function TC01_StringFormat_WhenHasParameters_ShouldBeReplaced()
+On Error Resume Next
+
     Dim stringFormat, input, result
     
     'Arrange
